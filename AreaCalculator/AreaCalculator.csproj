@@ -45,28 +45,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AreaCalculatorForm.cs">
+    <Compile Include="form\areacalculators\AreaCalculatorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalculateAreaForm.cs">
+    <Compile Include="form\CalculateAreaForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalculateAreaForm.Designer.cs">
+    <Compile Include="form\CalculateAreaForm.Designer.cs">
       <DependentUpon>CalculateAreaForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CircleAreaCalculator.cs">
+    <Compile Include="form\areacalculators\CircleAreaCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFactory.cs" />
+    <Compile Include="factory\FormFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecatangleAreaCalculator.cs">
+    <Compile Include="form\areacalculators\RecatangleAreaCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="CalculateAreaForm.resx">
+    <EmbeddedResource Include="form\CalculateAreaForm.resx">
       <DependentUpon>CalculateAreaForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CircleAreaCalculator.resx">
+    <EmbeddedResource Include="form\areacalculators\CircleAreaCalculator.resx">
       <DependentUpon>CircleAreaCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -78,7 +78,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RecatangleAreaCalculator.resx">
+    <EmbeddedResource Include="form\areacalculators\RecatangleAreaCalculator.resx">
       <DependentUpon>RecatangleAreaCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
